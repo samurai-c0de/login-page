@@ -17,9 +17,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       <SocialProfileJsonLd {...SocialsProfileSEO} />
 
       <Flex direction='column' justify='space-between' minH='100vh'>
-        <Navbar />
         <Component {...pageProps} />
-        <Footer />
       </Flex>
     </ChakraProvider>
   )
